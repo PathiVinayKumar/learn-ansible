@@ -1,3 +1,5 @@
--hosts: all
- tasks:
-  -ping: 
+- hosts: all
+  tasks:
+    - name: Test task
+      debug:
+        msg: "Hello Ansible"
